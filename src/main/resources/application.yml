@@ -1,0 +1,17 @@
+
+spring:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    url: jdbc:mysql://localhost:3306/springbatchexample?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: root
+
+sftp:
+    host: 127.0.0.1
+    port: 23
+    user: songhj
+    password: songhj
+    filePath:
+        send: /send
+        achieve: /achieve
+        localPath: /sftp_tmp_dir
